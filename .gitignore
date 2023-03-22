@@ -9,3 +9,9 @@ __pycache__/
 
 # If on a Mac, you can also add the .DS_Store
 .DS_Store
+
+# Hide the .env file because that is where we keep secrets, keys, etc.
+.env
+
+# Ignore the SQLite database (for development use only)
+app.db
